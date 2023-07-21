@@ -1,0 +1,15 @@
+.app-title-component {
+  width: 100%;
+  background: var(--var-bg-all);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-title-component > p {
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-shadow: 0.2rem 0.2rem 0.2rem black;
+}

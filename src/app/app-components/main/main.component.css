@@ -1,0 +1,44 @@
+.app-main{
+  width: 100%;
+  background: var(--var-bg-all);
+  min-height: 81.3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-main-block{
+  width: 35rem;
+  height: 10rem;
+  background: gainsboro;
+  box-shadow: 0.2rem 0.2rem 0.2rem black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.app-main-block > p {
+  width: 100%;
+  font-weight: bold;
+  color: midnightblue;
+  font-size: 1.5rem;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-style: italic;
+  color: midnightblue;
+  font-size: 1.1rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem grey;
+  margin-top: 1rem;
+}
+
+
