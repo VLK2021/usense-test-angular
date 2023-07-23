@@ -7,6 +7,7 @@ import {NotFoundComponent} from "./app-components/not-found/not-found.component"
 import {AppRoutingModule} from "./app.routing.module";
 import {MainComponent} from "./app-components/main/main.component";
 import {FormsModule} from "@angular/forms";
+import {PasswordStrengthComponent} from "./app-components/password-strength/password-strength.component";
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import {FormsModule} from "@angular/forms";
     AppComponent,
     TitleComponentComponent,
     NotFoundComponent,
-    MainComponent
+    MainComponent,
+    PasswordStrengthComponent
   ],
   imports: [
     BrowserModule,
