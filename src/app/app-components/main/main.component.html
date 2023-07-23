@@ -1,9 +1,9 @@
 <div class="app-main">
   <div class="app-main-block">
     <p>password</p>
-    <input type="text" [(ngModel)]="current" placeholder="password...">
+    <input type="text" [(ngModel)]="currentPassword" placeholder="password...">
 
-    <app-password-strength></app-password-strength>
+    <app-password-strength [currentPassword]="currentPassword"></app-password-strength>
   </div>
 
 </div>
